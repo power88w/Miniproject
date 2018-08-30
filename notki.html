@@ -105,7 +105,23 @@ git -m "zostawiamy wiadomosc" - po kolejnych zmianach zostawiamy  wiadomo co zos
 
 git add . - dodaje wszystkie pliki w danym folderze
 
-test 
+git diff nazwa plikiu sprawdzamy roznice
+
+git log sprawdzamy cala historie co sie gdzie stalo
+
+po sprawdzeniu logow mozemy cofnac pojedyncza zmiane 
+
+git reset --hard 1a1s1d1  6pierwszych cyfr z logu
+
+git rm --cached nazwa pliku.rozs  spowoduje ze plik zostanie wyjebany z repozytorium i nie bedzie trakowany
+
+echo "nazwapliku.roz" >> .gitignore
+
+po dodaniu plliku git ignore doajemy go do repozytorium po przez git ignore a nastepnie dodajemy to przez commit i nie musimy sie juz przejmowac ignorowanym plikiem
+
+do polaczenbia z git habem uzywamy kodow dostepnych w repozytorium na git hubie
+
+git push - aktualizujemy wszystkie zmiany po git add i git commit 
 
 
 
