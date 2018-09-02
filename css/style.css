@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
 
+
 /*-----colors------*/
 
 .bg-color-name-title{
@@ -45,6 +46,7 @@ h1,h2,h3,h4 {
 
 header{
     margin: 0;
+
 }
 
 .heading{
@@ -185,4 +187,6 @@ footer .cv-pdf i:hover {
     margin: 20px;
 
 }
+
+
 
