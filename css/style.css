@@ -38,6 +38,9 @@ h1,h2,h3,h4 {
     color: #fafafa;
 }
 
+.inline-block {
+    display: inline-block;
+}
 /*-----heading------*/
 
 header{
@@ -110,7 +113,6 @@ header{
 .menuitem span{
     display: block;
     width: 100%;
-    width-top: 5px;
     padding-top: 5px;
     text-align: center;
     text-transform: uppercase;
