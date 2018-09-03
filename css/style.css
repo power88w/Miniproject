@@ -2,6 +2,7 @@
 
 
 
+
 /*-----colors------*/
 
 .bg-color-name-title{
@@ -23,6 +24,18 @@
 .ui-menu-color-download {
     background-color: #525252;
 }
+.bg-color-three-reasons {
+    background-color: #ffffff;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    background-color: #525252;
+    color: #555555;
+    max-width: 1200px;
+}
+
 /*-----special Paddings/Margins/Text------*/
 
 h1,h2,h3,h4 {
@@ -42,6 +55,28 @@ h1,h2,h3,h4 {
 .inline-block {
     display: inline-block;
 }
+
+.section-column {
+    padding: 0 30px 30px;
+    float: none;
+    display: table-cell; 
+}
+
+.row-table {
+    display: table;
+}
+
+.section-heading{
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 40px;
+
+}
+
+
+
+
 /*-----heading------*/
 
 header{
