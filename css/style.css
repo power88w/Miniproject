@@ -38,7 +38,7 @@ body {
 /*-----special Paddings/Margins/Text------*/
 
 h1,h2,h3,h4 {
-    margin: 0;
+    margin: 10px;
 }
 
 .uppercase{
@@ -222,5 +222,13 @@ footer .cv-pdf i:hover {
 
 }
 
+/*-----three reasones------*/
 
-
+.three-reasons-icon{
+           font-size: 30px;
+           color: #e67e22;
+}
+.three-reasons-heading{
+    margin-bottom: 15px; 
+    
+}    
